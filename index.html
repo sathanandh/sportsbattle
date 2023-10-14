@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- Mirrored from sportsbattleapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Oct 2023 04:18:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <title>SPORTSBATTLE</title>
+    <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&amp;display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/js/tilt.jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+		$(document).ready(function(e) {
+
+            $('.js-tilt').tilt(
+              {'maxGlare': .5}
+             );
+            AOS.init();
+
+            $(window).scroll(function() {
+                AOS.refresh();
+                //alert('hello')
+            });
+
+            $('.textimonial-slider').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+              autoplay: true,
+              fade: true,
+              easing: 'linear',
+              infinite: false,
+              dots:true,
+              responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                  }
+                }
+              ]
+            });
+
+
+            $(".gifBx1st").hover(function() {
+                $(".gif1st").show();
+                $(".gif2nd").hide();
+                $(".gifBx2nd").removeClass('actives');
+                $(this).addClass('actives')
+            });
+
+            $(".gifBx2nd").hover(function() {
+                $(".gif1st").hide();
+                $(".gif2nd").show();
+                $(".gifBx1st").removeClass('actives');
+                $(this).addClass('actives');
+            });
+
+            var vids = $("video");
+            $.each(vids, function(){
+                   this.controls = false;
+            });
+
+            $("video").click(function() {
+              //console.log(this);
+              if (this.paused) {
+                this.play();
+              } else {
+                this.pause();
+              }
+            });
+
+
+
+        });
+
+	</script>
+
+</head>
+
+<body style="background-color: #000;">
+
+<section class="menu-banner-area">
+    <!-- ===========  Menu and logo area ============ -->
+    <div class="top-header-bar">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-xs-12">
+                  <div class="logo-area">
+                    <a href="index-2.html"><img src="assets/images/logo.png"></a>
+                  </div>
+                </div>
+
+                <!-- <div class="col-md-4 col-xs-8">
+                  <div class="menu-area">
+                    <ul>
+                      <li><a href="#">Contests</a></li>
+                      <li><a href="#">Game format</a></li>
+                    </ul>
+                  </div>
+                </div> -->
+
+                <div class="col-md-4 col-xs-4 pull-right">
+                    <div class="social">
+                        <ul>
+                            <li><a class="fb" href="https://www.facebook.com/SportsBattleFantasy" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/sportsbattleapp" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/sportsbattlefantasy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===========  banner-content-area ============ -->
+
+    <div class="banner-content-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-xs-12">
+            <div class="banner-text-area">
+              <h2></h2>
+              <h1 data-aos="fade-down" data-aos-delay="800">Sign up now & we will match your deposit up to<span><img src="assets/images/%24100.png"></span></h1>
+              <!-- <h2 data-aos="fade-down" data-aos-delay="1000">Get started with a free entry to <span>WIN UP TO  $50</span></h2> -->
+              <h2></h2>
+
+              <a class="appicon" data-aos="fade-right" href="https://apps.apple.com/us/app/sportsbattle-fantasy-sports/id1451594437?platform=iphone" target="_blank"><img src="assets/images/app.png"></a>
+        <a class="appicon" data-aos="fade-left" href="https://play.google.com/store/apps/details?id=com.cricketone.sq.cricket.one.xyz&amp;hl=en_US&amp;gl=US" target="_blank"><img src="assets/images/play.png"></a>
+
+            </div>
+          </div>
+          <div class="col-md-7 col-xs-12">
+            <div class="banner-right-content">
+               <div class="backOval" data-aos="zoom-in"><img src="assets/images/banner/hero-BG.png"></div>
+               <div class="mobileUp js-tilt" data-tilt-perspective="1500" data-aos="fade-right" data-aos-delay="300"><img src="assets/images/banner/Left-mobile.png"></div>
+               <div class="mobiledown js-tilt" data-tilt-perspective="1500" data-aos="fade-up-left" data-aos-delay="200"><img src="assets/images/banner/right-mobile.png"></div>
+              <div class="footbal js-tilt" data-tilt data-tilt-scale="1.2" data-aos-delay="500" data-aos="zoom-in" ><img src="assets/images/banner/football.png"></div>
+              <div class="hocyball js-tilt" data-tilt data-tilt-scale="1.2" data-aos-delay="700" data-aos="zoom-in"><img src="assets/images/banner/hockyball.png"></div>
+              <div class="baseball js-tilt" data-tilt data-tilt-scale="1.2" data-aos-delay="900" data-aos="zoom-in"><img src="assets/images/banner/baseball.png"></div>
+              <div class="busketball js-tilt" data-tilt data-tilt-scale="1.2" data-aos-delay="600" data-aos="zoom-in"><img src="assets/images/banner/busketball.png"></div>
+              <div class="criketball js-tilt" data-tilt data-tilt-scale="1.2" data-aos-delay="800" data-aos="zoom-in"><img src="assets/images/banner/criketball.png"></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<section class="content-area centerImg pad-top-100">
+   <div class="container">
+       <div class="row">
+           <div class="service-area">
+             <h2 data-aos="fade-down">EFFORTLESS DAILY FANTASY SPORTS</h2>
+             <span data-aos="fade-up">Place an entry in under 30 seconds and win up to $4000 every game</span>
+           </div>
+
+           <div class="serviceoptions">
+
+             <div class="col-md-4 col-xs-12">
+               <div class="serviceBx">
+                 <div class="servicesimg-area" data-aos="fade-right">
+                   <img src="assets/images/Rectangle-336.png">
+                 </div>
+                 <div class="servicestxt-area" data-aos="fade-up" data-aos-delay="200">
+                   <span>Step 1</span>
+                   <h3>Choose your favorite game</h3>
+                   <p>Just choose your favotire sport & a game. </p>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-md-4 col-xs-12">
+               <div class="serviceBx">
+                 <div class="servicesimg-area" data-aos="fade-up" data-aos-delay="200">
+                   <img src="assets/images/Rectangle-338.png">
+                 </div>
+                 <div class="servicestxt-area" data-aos="fade-up" data-aos-delay="300">
+                   <span>Step 2</span>
+                   <h3>Pick your favorite players</h3>
+                   <p>Choose if they go over or under their stat projection</p>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-md-4 col-xs-12">
+               <div class="serviceBx">
+                 <div class="servicesimg-area" data-aos="fade-right">
+                   <img src="assets/images/Rectangle-337.png">
+                 </div>
+                 <div class="servicestxt-area" data-aos="fade-up" data-aos-delay="200">
+                   <span>Step 3</span>
+                   <h3>Win Cash</h3>
+                   <p>Sit back, turn the game on, and track your players progress live!</p>
+                 </div>
+               </div>
+             </div>
+
+           </div>
+
+       </div>
+   </div>
+</section>
+
+
+<section class="content-area pad-top-40 pad-bottom-40">
+  <div class="container">
+    <div class="centerTxt" data-aos="fade-down"><img src="assets/images/ReferafriendGet%2425.png"></div>
+  </div>
+</section>
+
+<section class="content-area pad-top-40 pad-bottom-40">
+    <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-xs-12">
+            <div class="gif-anim-area">
+              <div class="gif1st">
+                <img src="assets/video/video.gif">
+                <!-- <span class="plys"><i class="fa fa-play-circle-o" aria-hidden="true"></i></span>
+                <video controls>
+                  <source src="assets/video/IMG_7006.MP4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video> -->
+              </div>
+              <div class="gif2nd">
+                <img src="assets/video/animation.gif">
+                <!-- <span class="plys"><i class="fa fa-play-circle-o" aria-hidden="true"></i></span>
+                <video controls>
+                  <source src="assets/video/IMG_7009.MP4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video> -->
+              </div>
+              <!-- <img class="gif1st" src="assets/images/Group-5.png">
+              <img class="gif2nd" src="assets/images/Group-6.png"> -->
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="formats-area">
+              <h2 data-aos="fade-down">GAME FORMATS</h2>
+              <!-- <span data-aos="fade-up">Something for every sports fan</span> -->
+              <span data-aos="fade-up">No competing with sharks, no creating 100s of lineups. Just beat the projections and win.</span>
+            </div>
+
+            <div class="innerBox">
+              <div class="formatBx actives gifBx1st js-tilt" data-tilt data-tilt-perspective="1500" data-aos="fade-left" data-aos-delay="200">
+                <h3>WIN UP TO 20.5X YOUR MONEY</h3>
+                <span>Over / Under</span>
+                <p>Choose up to 5 players, select if they go over or under their stat projection and win up to 20.5X your entry! A $25 entry wins you $512.5!</p>
+              </div>
+              <div class="formatBx gifBx2nd js-tilt" data-tilt data-tilt-perspective="1500" data-aos="fade-left" data-aos-delay="350">
+                <h3>WIN UP TO 15X YOUR MONEY on Player Battle fantasy</h3>
+                <span>Player Battle</span>
+                <p>Choose up to 5 players and select who will win their matchup to win up to 15x your entry! A $25 entry wins you $375</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="content-area testimonial pad-top-40 pad-bottom-80">
+    <div class="container">
+        <div class="row">
+            <h2 data-aos="fade-down">WHAT FANS THINK</h2>
+            <span data-aos="fade-up">We love sports as much as you do. Here are some of our users who have turned from sports Fans to Fantasy Sports players have to say about SportsBattle.</span>
+
+
+            <div class="col-md-10 col-md-offset-1 col-xs-12">
+              <div class="textimonial-slider">
+
+                <div>
+                  <div class="eachSlide">
+                    <p>I have been playing fantasy sports for a while on different apps and sites. Out of all I would recommend SportsBattle for the friendly user interface and ease of transactions. Unlike other apps which are cluttered with various sports And multiple odds, SportsBattle app interface is organized and easy to play.</p>
+                    <!-- <span>Dennis</span> -->
+                  </div>
+                </div>
+
+                <div>
+                  <div class="eachSlide">
+                    <p>This app has been lots of fun and great to play for my favorite sports. I've been using it for a while now and love it so far. I love playing the over-under on fantasy baseball. Customer service is great. I would recommend for any of those who wants to make money.</p>
+                    <!-- <span>Jennifer</span> -->
+                  </div>
+                </div>
+
+                <div>
+                  <div class="eachSlide">
+                    <p>SportsBattle is the easiest  way for fans to win cash on every game.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="content-area appScreen pad-top-40 pad-bottom-80">
+    <div class="container">
+      <h2 data-aos="fade-down">SPORTSBATTLE ATTACK PLAY</h2>
+      <!-- <span data-aos="fade-up"><img src="assets/images/$1000.png"></span> -->
+      <h2 data-aos="fade-up" data-aos-delay="1000" style="color: green;">$25 pays out $512.5</h2>
+    </div>
+</section>
+
+<section class="content-area attackPlay pad-top-0 pad-bottom-20">
+    <div class="container">
+      <!-- <h2 data-aos="fade-down">SPORTSBATTLE ATTACK PLAY</h2>
+      <p data-aos="fade-up">Start winning now! Get started with a free entry to win $50!</p>
+      <h2></h2> -->
+      <p data-aos="fade-up" data-aos-delay="200">Choose up to 5 players, select if they go over or under their fantasy projection and win 20.5x your entry free!</p>
+      <div class="image-area">
+        <ul>
+          <li class="js-tilt" data-tilt data-aos="fade-up" data-aos-delay="200"><a href="#"><img src="assets/images/Rectangle-339%402x.png"></a></li>
+          <li class="js-tilt" data-tilt data-aos="fade-up" data-aos-delay="300"><a href="#"><img src="assets/images/Rectangle340%402x.png"></a></li>
+          <li class="js-tilt" data-tilt data-aos="fade-up" data-aos-delay="400"><a href="#"><img src="assets/images/Rectangle341%402x.png"></a></li>
+          <li class="js-tilt" data-tilt data-aos="fade-up" data-aos-delay="500"><a href="#"><img src="assets/images/Rectangle342%402x.png"></a></li>
+          <li class="js-tilt" data-tilt data-aos="fade-up" data-aos-delay="600"><a href="#"><img src="assets/images/Rectangle343%402x.png"></a></li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+
+<section class="content-area appScreen pad-top-40 pad-bottom-80">
+    <div class="container">
+
+      <h2 data-aos="fade-down">Download the app now</h2>
+      <!-- <p data-aos="fade-up">Start winning now! Get started with a free entry to win $50!</p> -->
+      <p>Sign up now & we will match your deposit 100% up to $100</p>
+
+      <div class="image-area">
+        <a class="appicon" data-aos="fade-right" href="https://apps.apple.com/us/app/sportsbattle-fantasy-sports/id1451594437?platform=iphone" target="_blank"><img src="assets/images/app.png"></a>
+        <a class="appicon" data-aos="fade-left" href="https://play.google.com/store/apps/details?id=com.cricketone.sq.cricket.one.xyz&amp;hl=en_US&amp;gl=US" target="_blank"><img src="assets/images/play.png"></a>
+
+<!-- class="js-tilt" data-tilt transform: translateZ(20px) data-aos="zoom-in" -->
+
+        <div class="appScreen-area">
+          <div class="screen2nd js-tilt" data-tilt-perspective="1500" data-aos="fade-left"><img src="assets/images/Phoneright.png"></div>
+          <div class="screen1st js-tilt" data-tilt-perspective="1500" data-aos="fade-right" data-aos-delay="300"><img src="assets/images/PhoneLeft.png"></div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+
+<section class="footer-area">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 col-xs-12">
+                <div class="footer-content bdr">
+                  <span class="ftlogo"><a href="index-2.html"><img src="assets/images/footer-logo.png"></a></span>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+                <div class="footer-content bdr">
+                  <h2>PRIVACY & TOS</h2>
+                  <ul>
+                      <li><a href="responsibleplay.html">Responsible Play</a></li>
+                      <li><a href="termsofuse.html">Terms of Use</a></li>
+                      <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-xs-12">
+                <div class="footer-content">
+                  <h2>CONTACT US</h2>
+                  <div class="social">
+                    <a href="#">support @ sportsbattleapp dot com</a>
+                      <ul>
+                          <li><a class="fb" href="https://www.facebook.com/SportsBattleFantasy" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                          <li><a href="https://twitter.com/sportsbattleapp" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                          <li><a href="https://www.instagram.com/sportsbattlefantasy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+
+<!-- Mirrored from sportsbattleapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Oct 2023 04:19:20 GMT -->
+</html>
+
+
+
+

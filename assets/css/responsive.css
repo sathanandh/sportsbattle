@@ -1,0 +1,57 @@
+/* large Layout: 1280px. */
+@media only screen and (min-width: 1600px) and (max-width: 2000px) { 
+    .banner-left-content{ left: 0; }
+    .banner-right-content{ right: 18%; }
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { /* STYLES GO HERE */
+    
+}
+
+/* Mobile Layout: 320px to 767px. */
+@media only screen and (max-width: 767px) {
+    .top-header-bar{padding: 10px 0 0;}
+    .menu-area ul{ margin-top: 0; }
+    .social{ margin-top: 5px; }
+    .banner-text-area{    margin-top: 10px;}
+    .banner-content-area{ position: relative; padding: 0; }
+    .menu-banner-area{ height: auto; }
+    .mobileUp{ left: 0; }
+    .mobiledown{ right: 0; }
+    .footbal{ top: -50px; right: -100px; }
+    .hocyball{ top: 0; left: 0; z-index: 12; }
+    .baseball{ left: -22px; }
+    .busketball{ left: 0; }
+    .service-area h2, .testimonial h2, .attackPlay h2, .appScreen h2{ font-size: 34px; line-height: 38px; }
+    .testimonial span{ padding: 0; }
+    .eachSlide p{ padding: 70px 10px; }
+    .attackPlay span img { width: 80%; }
+    .image-area ul li{ width: 47%; height: 170px; }
+    .appScreen p{ font-size: 22px; line-height: 26px; }
+    .screen1st{ left: 0; }
+    .screen2nd{ right: 0; }
+    .footer-content{ text-align: center;}
+    .ftlogo{ float: none; }
+    .footer-content a{ display: inline-block; }
+    .footer-content h2{ text-align: center; }
+    .footer-content .social a{ display: block; text-align: center; }
+    .footer-content .social ul{display: inline-block; float: none; width: auto;}
+    .menu-area ul li{ padding: 0; }
+    .social ul li{ padding: 0 8px 0 0; }
+    a.appicon{ padding: 0; }
+    .servicestxt-area{padding: 15px 5px;}
+    .centerTxt img{ width: 100% }
+    .bdr{ border:none; }
+    .gif-anim-area{ display: none; }
+    .image-area{ display: none; }
+
+}

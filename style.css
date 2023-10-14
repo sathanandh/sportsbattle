@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Montserrat', sans-serif; margin:0px; padding:0px; background: #141416; counter-reset: section;}
+h1, h2, h3, h4, h5, span, a{ margin:0px; padding:0px; font-family: 'Montserrat', sans-serif; display:block;}
+a:focus{ outline:none; text-decoration:none;}
+a:hover{ outline:none; text-decoration:none;}
+
+header, section, aside, footer, nav{ display:block;}
+
+@font-face {
+    font-family: 'ProductSans-Bold';
+    src:url('assets/fonts/Product-Sans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-Bold-Italic';
+    src: url('assets/fonts/Product-Sans-Bold-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-Italic';
+    src:url('assets/fonts/Product-Sans-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-Regular';
+    src:url('assets/fonts/Product-Sans-Regular.woff') format('woff');
+}
+/*html {
+  scroll-behavior: smooth;
+}*/
+
+.nopad{ padding: 0 !important; }
+.pad-top-100{ padding-top:100px !important;}
+.pad-top-80{ padding-top:80px !important;}
+.pad-top-60{ padding-top:60px !important;}
+.pad-top-40{ padding-top:40px !important;}
+.pad-top-20{ padding-top:20px!important;}
+
+.pad-bottom-100{ padding-bottom:100px!important;}
+.pad-bottom-80{ padding-bottom:80px!important;}
+.pad-bottom-60{ padding-bottom:60px!important;}
+.pad-bottom-40{ padding-bottom:40px!important;}
+.pad-bottom-20{ padding-bottom:20px!important;}
+.pad-right-5{ padding-right: 5px !important }
+
+.pad-left-0{ padding-left:0px!important;}
+.pad-right-0{ padding-right:0px!important;}
+.col-md-custom{ width: 23%; float: left; padding: 0px 15px; }
+
+.mar-top-100{ margin-top:100px !important;}
+.mar-top-80{ margin-top:80px !important;}
+.mar-top-60{ margin-top:60px !important;}
+.mar-top-40{ margin-top:40px !important;}
+.mar-top-20{ margin-top:20px!important;}
+.mar-top-10{ margin-top:10px!important;}
+.mar-top-5{ margin-top:5px!important;}
+/*-----------------placeholder css -------------------------------*/
+
+input::-moz-placeholder {  /* Firefox 19+ */ opacity:0.7; font-family: 'CerebriSans-Light'; font-size:15px; font-weight:300; color:#999999 !important;}
+input::-webkit-input-placeholder {  /* Firefox 19+ */ opacity:0.7;  font-family: 'CerebriSans-Light'; font-size:15px; font-weight:300; color:#999999 !important;}
+input:-ms-input-placeholder {  /* Firefox 19+ */ opacity:0.7;  font-family: 'CerebriSans-Light'; font-size:15px; font-weight:300; color:#999999 !important;}
+select::-ms-expand {display: none;}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */ opacity:0.5; font-family: 'CerebriSans-Light'; font-size:15px; font-weight:400; color:#999999 !important;}
+textarea::-webkit-input-placeholder {  /* Firefox 19+ */ opacity:0.5;font-family: 'CerebriSans-Light'; font-size:15px; font-weight:400; color:#999999 !important;}
+textarea:-ms-input-placeholder {  /* Firefox 19+ */ opacity:0.5; font-fam.headercls .navbar-navily:'CerebriSans-Light'; font-size:15px; font-weight:400; color:#999999 !important;}
+
+
+
+/* --  ================= menu and logo area ===============  --  */
+
+.menu-banner-area{ position: relative; float: left; width: 100%; height: 820px; }
+
+.top-header-bar{ position: relative; float: left; width: 100%; padding: 30px 0 0; z-index: 123; }
+.logo-area{ position: relative; float: left; width: 100%; }
+.logo-area a{ display: block; }
+
+.menu-area{ position: relative; float: left; width: 100%; text-align: left; }
+.menu-area ul{ position: relative; display: inline-block;  width: auto; margin:26px 0 0; padding: 0; }
+.menu-area ul li{ list-style-type: none; float: left; margin: 0 ; padding: 0 0 0 10px; position: relative; }
+.menu-area ul li a{ text-decoration: none; display: inline-block; ont-family: 'Montserrat', sans-serif; padding: 0 10px; color: #777E90; font-size: 16px; font-weight: 600; padding: 5px 15px;}
+.menu-area ul li a:hover{ color:#dd0991;  }
+
+.social{ position: relative; float: left; width: 100%;margin-top: 30px; }
+.social ul{ position: relative; float: right; width: auto; margin:0; padding: 0; }
+.social ul li{ list-style-type: none; float: left; margin: 0; padding: 0 12px 0 0; }
+.social ul li a{ text-decoration: none; display: block; color: #777E90; width: 22px; height: 22px; text-align: center;}
+.fb{ border:2px solid #777E90; border-radius: 100%; }
+.social ul li a:hover{ color:#dd0991;  }
+.fb:hover{ border:2px solid #dd0991; color:#dd0991;  }
+
+
+
+/*=======  Banner area  ========*/
+.banner-content-area{ position: absolute; top: 0; left: 0; width: 100%; padding:0; overflow: hidden; padding-top: 70px; }
+
+.banner-text-area{ position: relative; float: left; width: 100%; margin-top: 160px; }
+.banner-text-area h1{  display: block; font-family: Montserrat; font-size: 42px; font-style: normal; font-weight: 700; line-height: 46px; letter-spacing: 0em; text-align: left; color: #fff; }
+.banner-text-area h1 span{ display: inline-block; padding-left: 10px; }
+.banner-text-area h1 span img{ width: 60%; }
+.banner-text-area h2{ display: block; font-family: Montserrat; font-size: 24px; font-style: normal; font-weight: 400;line-height: 32px; letter-spacing: -0.02em; text-align: left; color: #00A711; padding: 15px 0 30px;}
+.banner-text-area h2 span{ display: inline-block; font-weight: 600; }
+
+a.appicon{ display: inline-block; padding-right: 15px; }
+a.appicon img{ width: 70%; }
+
+
+.test{ position: absolute; top: 0; left: 0; opacity: 0.3; }
+.banner-right-content{ width: 100%; position: relative; float: left; overflow: hidden; height: 700px; margin-top: 30px; }
+.backOval{ position: absolute; top: 11%; right: 2%; width: 499px; height: 544px; }
+.mobileUp{ position: absolute; width: 260px; top: 15px; left: 135px; z-index: 1 }
+.mobileUp img{ width: 100%; }
+.mobiledown{ position: absolute; width: 260px; bottom: 23px; right: 65px; }
+.mobiledown img{ width: 100%; }
+
+.footbal{ position: absolute; top: 20px; right: -50px; width: 280px; }
+.footbal img{ width: 100%; }
+
+.hocyball{ position: absolute; top: 20px; left: 60px; width: 70px; }
+.hocyball img{ width: 100%; }
+
+.baseball{ position: absolute; top: 160px; left: 60px; width: 180px; z-index: 11; }
+.baseball img{ width: 100%; }
+
+.busketball{ position: absolute; bottom: -25px; left: 200px; width: 210px; z-index: 11; }
+.busketball img{ width: 100%; }
+
+.criketball{ position: absolute; bottom: 80px; right:-10px; width: 70px; }
+.criketball img{ width: 100%; }
+
+/*  end banner content  */
+
+
+.content-area{ position: relative; float: left; width: 100%; padding: 0px 0; overflow: hidden; }
+.centerImg{ overflow: visible; }
+.centerImg:after{ content: ''; position: absolute; top: -40px; left: calc(50% - 175px); width: 350px; height: 400px; background: url(assets/images/Vector-2.png); }
+
+
+/*===========Service area css==========*/
+.service-area{ position: relative; float: left; width: 100%; padding:  0; }
+.service-area h2{ display: block; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: center; color: #fff;}
+.service-area span{ display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0em; text-align: center; color: #fff; padding: 20px 0;}
+
+.serviceoptions{ position: relative; float: left; width: 100%; padding: 35px 0; z-index: 12 }
+
+.serviceBx{ position: relative; float: left; width: 100%; /*border: 1px solid #fff;*/ }
+.servicesimg-area{ position: relative; float: left; width: 100%; padding: 0 15px; text-align: center; }
+.servicestxt-area{ position: relative; float: left; width: 100%; padding: 15px 45px; }
+.servicestxt-area span{ display: block; font-family: Montserrat; font-size: 12px; font-style: normal; font-weight: 600; line-height: 20px; letter-spacing: 0em; text-align: left; color: #777E90; text-align: center;}
+.servicestxt-area h3 { display: block; font-family: Montserrat; font-size: 18px; font-style: normal; font-weight: 800; line-height: 24px; letter-spacing: 0em; text-align: center; color: #fff; padding-top: 12px;}
+.servicestxt-area p{ display: block; font-family: Montserrat; font-size: 13px; font-style: normal; font-weight: 500; line-height: 18px; letter-spacing: 0em; text-align: center; color: #fff; padding-top: 12px;}
+
+
+/*========= game format area css===============*/
+
+.ourvision-area{ position: relative; float: left; width: 100%; min-height: 450px; padding:0; }
+
+.gif-anim-area{ position: relative; margin-top: 55px; float: left; width: 100%; text-align: center; min-height: 790px; background: url(assets/images/GroupBg.png);  background-repeat: no-repeat; background-position: top center;}
+.gif2nd{ display: none; }
+.gif1st{ display: block; }
+
+.gif1st video{ width: 100%; height: 730px; }
+.gif2nd video{ width: 100%; height: 730px; }
+
+.plys{ position: absolute; top: calc(50% - 30px); left: calc(50% - 30px); color: #fff; font-size: 42px; display: none; }
+.gif1st:hover .plys{ display: block; }
+.gif2nd:hover .plys{ display: block; }
+
+.formats-area{ position: relative; float: left; width: 100%; margin-top: 40px;  }
+.formats-area h2{ display: block; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: center; color: #fff;}
+.formats-area span{ display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0em; text-align: center; color: #fff; padding: 20px 0;}
+
+.innerBox{ position: relative; float: left; width: 100%; margin-top: 30px; text-align: center; }
+.formatBx { width: 322px; position: relative; display: inline-block; border-radius: 16px; background: #23262F; margin-bottom: 30px; padding: 20px;}
+.formatBx h3{ display: block; text-transform: uppercase; font-family: Montserrat; font-size: 22px; font-style: normal; font-weight: 700; line-height: 28px; letter-spacing: 0em; text-align: left; color: #9757D7; padding-bottom: 20px;}
+.formatBx span{ display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0.03em; text-align: left; color: #fff}
+.formatBx p{ display: block; font-family: Montserrat; font-size: 14px; font-style: normal; font-weight: 400; line-height: 24px; letter-spacing: 0em; text-align: left; color: #fff; padding-top: 20px;}
+
+.formatBx:hover{
+  background: linear-gradient(256.27deg, rgba(255, 122, 0, 0.3) -4.74%, rgba(255, 0, 93, 0.3) 105.11%);
+}
+.formatBx:hover h3{color: #FF5780; }
+
+.actives{background: linear-gradient(256.27deg, rgba(255, 122, 0, 0.3) -4.74%, rgba(255, 0, 93, 0.3) 105.11%);}
+.actives h3{color: #FF5780; }
+/*========= testtimonial area css===============*/
+
+.testimonial{}
+.testimonial:after{ content: ''; position: absolute; top: 0px; left: calc(50% - 41px); width: 82px; height: 84px; background: url(assets/images/small-logo.png); }
+
+.testimonial h2{ display: block; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: center; color: #fff; padding-top: 50px;}
+.testimonial span{ display: block; font-family: Poppins; font-size: 14px; font-style: normal; font-weight: 300; line-height: 18px; letter-spacing: 0em; text-align: center; color: #E6E8EC; padding: 0 250px; opacity: 0.5; padding-top: 20px; }
+
+.textimonial-slider{ position: relative; float: left; width: 100%; min-height: 250px; margin-top: 20px; text-align: center; }
+.textimonial-slider:after{ content: ''; position: absolute; top: 0; left: 0; width: 153px; height: 110px; background: url(assets/images/comma1.png); opacity: 0.3; }
+.textimonial-slider:before{ content: ''; position: absolute; bottom: 60px; right: 0; width: 153px; height: 110px; background: url(assets/images/comma2.png); opacity: 0.3;}
+
+.eachSlide{ position: relative; float: left; width: 100%; }
+.eachSlide p{ display: block; font-family: Poppins; font-size: 23px; font-style: italic; font-weight: 300; line-height: 38px; letter-spacing: 0em; text-align: center; color: #fff; padding: 70px 110px 15px;  }
+.eachSlide span{ display: block; font-family: Poppins; font-size: 26px; font-style: italic; font-weight: 600; line-height: 38px;}
+
+ul.slick-dots{ position: relative; display: inline-block; margin: 50px 0 0; padding: 0; }
+ul.slick-dots li{ list-style-type: none; float: left; margin: 0 5px; }
+ul.slick-dots li button{background: #f36932; border: none; width: 12px; height: 12px; border-radius: 100%;   overflow: hidden; text-indent: -5556px}
+ul.slick-dots li.slick-active  button{ background: #fff; }
+/*============= attackPlay area css ============*/
+
+.attackPlay{  }
+.attackPlay h2{ display: block; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: center; color: #fff; padding-top: 50px;}
+.attackPlay span{ display: block; text-align: center; padding-top: 20px; }
+.attackPlay span img{ width: 50% }
+.attackPlay p{ display: block; font-family: Montserrat; font-size: 18px; font-style: normal; font-weight: 800; line-height: 24px; letter-spacing: 0em; text-align: center; color: #fff; padding: 20px 0px; }
+
+.image-area{ position: relative; float: left; width: 100%; text-align: center; }
+.image-area ul{ position: relative; display: inline-block; margin: 0; padding: 0; }
+.image-area ul li{ position: relative; float: left; width: 198px; height: 198px; border-radius: 20px; margin: 5px; padding: 0; overflow: hidden; }
+.image-area ul li a{ display:flex; justify-content: center; align-items: center; }
+.image-area ul li a img{ object-fit: cover; height: 198px; }
+
+
+
+
+/*=============  appScreen area css  ================*/
+.appScreen{}
+.appScreen h2{ display: block; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: center; color: #fff; padding-top: 50px;}
+.appScreen p{ display: block; font-family: Montserrat; font-size: 32px; font-style: normal; font-weight: 700; line-height: 34px; letter-spacing: 0em; text-align: center; color: #00A711; padding: 20px 0px; }
+
+.appScreen-area{ position: relative; float: left; width: 100%; margin-top: 70px; min-height: 750px; background: url(assets/images/bg-screen.png); background-repeat: no-repeat; background-position: top center; }
+.screen1st{ width: 390px; position: absolute; top: 0; left: 250px; z-index: 2; }
+.screen1st img{ width: 100%; }
+
+.screen2nd{ width: 390px; position: absolute; bottom: 10px; right: 260px; }
+.screen2nd img{ width: 100%; }
+
+
+/*========= footer area css===============*/
+
+.footer-area{ position: relative; float: left; width: 100%; border-top: 1px solid rgba(255,255,255,0.1);  padding:0; overflow: hidden; }
+.footer-content{ position: relative; float: left; width: 100%; padding: 30px 0;  }
+.bdr{border-right: 1px solid rgba(255,255,255,0.1);}
+.ftlogo{ position: relative; float: left; width: 100%; text-align: center; }
+.ftlogo a{ display: inline-block; }
+
+.footer-content h2{ display: block; font-family: Poppins; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0em; text-align: left; color: #fff; }
+
+.footer-content ul{ position: relative; float: left; width: 100%; padding: 0; margin: 20px 0 0; }
+.footer-content ul li{ list-style-type: none; float: left; width: 100%; padding: 0; margin:0; }
+.footer-content ul li a{ text-decoration: none; display: inline-block; font-family: Poppins; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0em; text-align: left;  padding: 4px 0; color: #676767;}
+.footer-content .social ul li{ width: auto; margin-right: 7px; padding-bottom: 18px; }
+.footer-content .social ul li a{ padding: 0; text-align: center; }
+
+.footer-content a{ display: block; font-family: Poppins; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; letter-spacing: 0em; text-align: left; color: #676767;}
+
+
+.conyrigt{ position: relative; float: left; width: 100%; padding: 15px 0; border-top: 1px solid #464854; }
+.conyrigt a{ display: inline-block; text-decoration: none; font-size: 16px; font-family: 'ProductSans-Regular'; color: #fff; padding-right: 5px; }
+.conyrigt p{ display: inline-block; text-decoration: none; font-size: 16px; font-family: 'ProductSans-Regular'; color: #fff; margin: 0; }
+
+/*======================= Inner page css area  ==========================*/
+
+
+   /* =============    responsible play page CSS     ==============*/
+
+.inner-banner-area{ position: relative; float: left; width: 100%; padding-bottom: 50px; }
+.inner-content-area{ position: relative; float: left; width: 100%; }
+
+.inner-content-area h2{ display: block; font-family: Montserrat; font-size: 56px; font-style: normal; font-weight: 700; line-height: 56px; letter-spacing: 0em; text-align: left; color: #fff; padding-bottom: 30px;}
+
+.inner-content{ position: relative; float: left; width: 100%; background: #1D1D1F; padding: 20px 40px; border-radius: 10px; margin-bottom: 80px; }
+.inner-content p{ display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff; margin-bottom: 30px;}
+.inner-content p a{ display: inline-block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; letter-spacing: 0em; text-align: left; color: rgba(7,141,199,1); }
+.inner-content h3 { display: block; font-family: Montserrat; font-size: 18px; font-style: normal; font-weight: 700; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff; margin: 10px 0;}
+.inner-content span{ display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 700; line-height: 26px; letter-spacing: 0em; text-align: center; color: #fff; margin-bottom: 35px;}
+.inner-content h4 { display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 700; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff; margin: 10px 0; }
+
+.inner-content ul{ position: relative; float: left; width: 100%; padding: 0; margin: 0 0 30px; }
+.inner-content ul li{ list-style-type: none; float: left; position: relative; width: 100%; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff; margin-bottom: 20px; padding-left: 25px; }
+.inner-content ul li:after{ content: ''; position: absolute; width: 6px; height: 6px; background: #66667b; border-radius: 100%; top: 10px; left: 0; }
+.inner-content ul span{display: block; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff;}
+
+
+.inner-content ul.nums{ position: relative; float: left; width: 100%; padding: 0; counter-reset: my-sec-counter; margin: 0 0 30px; }
+.inner-content ul.nums li{ list-style-type: none; float: left; position: relative; width: 100%; font-family: Montserrat; font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; letter-spacing: 0em; text-align: left; color: #fff; margin-bottom: 10px; padding-left: 30px; }
+.inner-content ul.nums li:after{ counter-increment: my-sec-counter; content: counter(my-sec-counter) ". "; position: absolute; background: none; width: auto; height: auto;  top: 0px; left: 0; font-family: Montserrat; font-size: 16px; font-weight: 600; }
+
+.centerTxt {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+}
